@@ -9,7 +9,7 @@ spark = SparkSession.builder \
         .appName("Spark SQL Query") \
         .getOrCreate()
 
-def read_json_and_get_variables(file_path):
+def read_config(file_path):
 
     try:
         with open(file_path, 'r') as file:
@@ -35,6 +35,7 @@ def read_json_and_get_variables(file_path):
         print(f"Error: Missing key {e} in JSON data.")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+
 
 def read_and_validate_bookings(json_path):
     bookings = spark.read.option("mode", "PERMISSIVE").json(json_path)
@@ -72,8 +73,8 @@ def execute_sql_analysis(analysis_sql_path, start_date, end_date):
     return result
 
 if __name__ == "__main__":
-    file_path = 'config.json'
-    bookings_path, airports_path, start_date, end_date = read_json_and_get_variables(file_path)
+    config_path = 'config.json'
+    bookings_path, airports_path, start_date, end_date = read_config(config_path)
 
     bookings = read_and_validate_bookings(bookings_path)
     bookings.createOrReplaceTempView("bookings")
@@ -87,7 +88,5 @@ if __name__ == "__main__":
 
     """
     functional req:
-    The user should be able to specify a start-date and end-date
-    your solution should be able to take as input a directory location on HDFS, containing many files in the same format totaling TBs in size.
     add docker compose to repo
     """

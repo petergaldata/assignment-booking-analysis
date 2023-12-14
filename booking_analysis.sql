@@ -12,15 +12,18 @@ WITH confirmed_date_localized_bookings as(
     WHERE b.booking_status = 'CONFIRMED' AND b.operating_airline = 'KL'
 )
 SELECT 
-ap_dest.country AS destination_country,
-DATE_FORMAT(to_timestamp(cb.departure_date_local), 'E') AS day_of_week, 
-CASE 
-    WHEN MONTH(to_timestamp(cb.departure_date_local)) IN (12, 1, 2) THEN 'Winter'
-    WHEN MONTH(to_timestamp(cb.departure_date_local)) IN (3, 4, 5) THEN 'Spring'
-    WHEN MONTH(to_timestamp(cb.departure_date_local)) IN (6, 7, 8) THEN 'Summer'
-    ELSE 'Autumn'
-    END AS season,
-COUNT(DISTINCT cb.passenger_uci) AS number_of_passengers
+    ap_dest.country AS destination_country,
+    DATE_FORMAT(to_timestamp(cb.departure_date_local), 'E') AS day_of_week, 
+    CASE 
+        WHEN MONTH(to_timestamp(cb.departure_date_local)) IN (12, 1, 2) THEN 'Winter'
+        WHEN MONTH(to_timestamp(cb.departure_date_local)) IN (3, 4, 5) THEN 'Spring'
+        WHEN MONTH(to_timestamp(cb.departure_date_local)) IN (6, 7, 8) THEN 'Summer'
+        ELSE 'Autumn'
+        END AS season,
+    COUNT(DISTINCT cb.passenger_uci) AS number_of_passengers,
+    COUNT(DISTINCT CASE WHEN cb.passenger_age >= 18 THEN cb.passenger_uci ELSE NULL END) AS number_of_adults,
+    COUNT(DISTINCT CASE WHEN cb.passenger_age < 18 THEN cb.passenger_uci ELSE NULL END) AS number_of_children,
+    ROUND(AVG(cb.passenger_age), 2) AS average_age
 FROM confirmed_date_localized_bookings cb
 INNER JOIN airports ap_orig ON cb.origin_airport = ap_orig.iata
 INNER JOIN airports ap_dest ON cb.destination_airport = ap_dest.iata
