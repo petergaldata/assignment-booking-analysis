@@ -26,6 +26,7 @@ INNER JOIN airports ap_orig ON cb.origin_airport = ap_orig.iata
 INNER JOIN airports ap_dest ON cb.destination_airport = ap_dest.iata
 WHERE
     ap_orig.country = 'Netherlands'
+    AND TO_DATE(cb.timestamp) between ${start_date} and ${end_date}
 GROUP BY 
     destination_country, day_of_week, season
 ORDER BY 
