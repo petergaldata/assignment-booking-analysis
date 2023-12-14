@@ -1,15 +1,15 @@
 WITH confirmed_date_localized_bookings as(
     SELECT 
     b.*, 
-    from_utc_timestamp(b.departure_date, a.tz) AS departure_date_local
+    from_utc_timestamp(b.departure_date, ap_orig.tz) AS departure_date_local
     FROM bookings b
     INNER JOIN (
         SELECT passenger_uci, MAX(timestamp) as max_timestamp
         FROM bookings
         GROUP BY passenger_uci
     ) b_max ON b.passenger_uci = b_max.passenger_uci AND b.timestamp = b_max.max_timestamp
-    INNER JOIN airports a on b.origin_airport = a.iata
-    WHERE b.booking_status = 'CONFIRMED' AND b.operating_airline = 'KL'
+    INNER JOIN airports ap_orig on b.origin_airport = ap_orig.iata
+    WHERE b.booking_status = 'CONFIRMED' AND b.operating_airline = 'KL' AND ap_orig.country = 'Netherlands'
 )
 SELECT 
     ap_dest.country AS destination_country,
@@ -25,11 +25,9 @@ SELECT
     COUNT(DISTINCT CASE WHEN cb.passenger_age < 18 THEN cb.passenger_uci ELSE NULL END) AS number_of_children,
     ROUND(AVG(cb.passenger_age), 2) AS average_age
 FROM confirmed_date_localized_bookings cb
-INNER JOIN airports ap_orig ON cb.origin_airport = ap_orig.iata
 INNER JOIN airports ap_dest ON cb.destination_airport = ap_dest.iata
 WHERE
-    ap_orig.country = 'Netherlands'
-    AND TO_DATE(cb.timestamp) between ${start_date} and ${end_date}
+    TO_DATE(cb.timestamp) between ${start_date} and ${end_date}
 GROUP BY 
     destination_country, day_of_week, season
 ORDER BY 

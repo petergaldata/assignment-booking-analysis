@@ -1,4 +1,5 @@
 import json
+import time
 from datetime import date
 import datetime
 from pyspark.sql import SparkSession, types
@@ -8,6 +9,9 @@ from pyspark.sql.functions import col, explode
 spark = SparkSession.builder \
         .appName("Spark SQL Query") \
         .getOrCreate()
+
+start_time = time.time()
+
 
 def read_config(file_path):
 
@@ -31,10 +35,15 @@ def read_config(file_path):
         print("Error: The file does not contain valid JSON.")
     except FileNotFoundError:
         print(f"Error: The file {file_path} was not found.")
-    except KeyError as e:
-        print(f"Error: Missing key {e} in JSON data.")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+
+
+def write_to_csv(df, extra_path=""):
+    current_date = datetime.datetime.now().strftime("%Y_%m_%d")
+    path = f"booking_analysis/{current_date}/"
+    df.write.mode('overwrite').csv(path, header=True)
+    print(f"CSV has been succesfully written to {path}")
 
 
 def read_and_validate_bookings(json_path):
@@ -42,6 +51,7 @@ def read_and_validate_bookings(json_path):
     if "_corrupt_record" in bookings.columns:
         bookings = bookings.filter(col("_corrupt_record").isNull())
         bookings_corrutpted = bookings.filter(col("_corrupt_record").isNotNull())
+        write_to_csv(bookings_corrutpted, "corrupted")
     bookings = bookings.withColumn("passenger", explode("event.DataElement.travelrecord.passengersList")).withColumn("product", explode("event.DataElement.travelrecord.productsList"))
     bookings = bookings.select(
         col("timestamp").alias("timestamp"),
@@ -64,6 +74,7 @@ def read_airports(data_path):
     airports = airports.toDF(*column_names)
     return airports
 
+
 def execute_sql_analysis(analysis_sql_path, start_date, end_date):
     with open(analysis_sql_path, "r") as file:
         sql_query = file.read()
@@ -71,6 +82,7 @@ def execute_sql_analysis(analysis_sql_path, start_date, end_date):
     sql_query = sql_query.replace("${end_date}", f"'{end_date}'")
     result = spark.sql(sql_query)
     return result
+
 
 if __name__ == "__main__":
     config_path = 'config.json'
@@ -84,9 +96,9 @@ if __name__ == "__main__":
 
     analysis_sql_path = "booking_analysis.sql"
     result = execute_sql_analysis(analysis_sql_path, start_date, end_date)
-    result.show()
 
-    """
-    functional req:
-    add docker compose to repo
-    """
+    write_to_csv(result)
+
+    end_time = time.time()
+    execution_time = round(end_time - start_time, 2)
+    print(f"The analysis succesfully finished in {execution_time} seconds.")
