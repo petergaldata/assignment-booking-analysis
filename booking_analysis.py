@@ -14,6 +14,12 @@ start_time = time.time()
 
 
 def read_config(file_path):
+    """
+    Read and parse configuration from a JSON file. Handles JSON parsing and file reading exceptions.
+    
+    :param file_path: Path to the JSON configuration file.
+    :return: Tuple of bookings and airports paths, and start and end dates. Returns None on error.
+    """
 
     try:
         with open(file_path, 'r') as file:
@@ -40,6 +46,12 @@ def read_config(file_path):
 
 
 def write_to_csv(df, extra_path=""):
+    """
+    Writes DataFrame to CSV with current date and logs path.
+
+    :param df: Spark DataFrame to write.
+    :param extra_path: Additional path for CSV location.
+    """
     current_date = datetime.datetime.now().strftime("%Y_%m_%d")
     path = f"booking_analysis/{current_date}/"
     df.write.mode('overwrite').csv(path, header=True)
@@ -47,6 +59,13 @@ def write_to_csv(df, extra_path=""):
 
 
 def read_and_validate_bookings(json_path):
+    """
+    Read and validate booking data from JSON.
+    Filters corrupt records and explodes nested JSON fields.
+
+    :param json_path: Path to the bookings JSON file.
+    :return: Processed DataFrame with bookings data.
+    """
     bookings = spark.read.option("mode", "PERMISSIVE").json(json_path)
     if "_corrupt_record" in bookings.columns:
         bookings = bookings.filter(col("_corrupt_record").isNull())
@@ -69,6 +88,12 @@ def read_and_validate_bookings(json_path):
     
 
 def read_airports(data_path):
+    """
+    Read airport data from CSV.
+
+    :param data_path: Path to the airports CSV file.
+    :return: DataFrame with airport data.
+    """
     column_names = ["airport_id", "name", "city", "country", "iata", "icao", "latitude", "longitude", "altitude", "timezone", "dst", "tz", "type",	"source"]
     airports = spark.read.option("delimiter", ",").csv(data_path)
     airports = airports.toDF(*column_names)
@@ -76,6 +101,14 @@ def read_airports(data_path):
 
 
 def execute_sql_analysis(analysis_sql_path, start_date, end_date):
+    """
+    Execute SQL query for analysis. Replaces date placeholders in SQL query and executes it.
+
+    :param analysis_sql_path: Path to SQL query file.
+    :param start_date: Analysis start date.
+    :param end_date: Analysis end date.
+    :return: Result DataFrame of SQL query.
+    """
     with open(analysis_sql_path, "r") as file:
         sql_query = file.read()
     sql_query = sql_query.replace("${start_date}", f"'{start_date}'")

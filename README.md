@@ -29,7 +29,7 @@ To run this batch job, you will need:
 2. **Pull the Apache Spark Docker image** by running:
 
    ```bash
-   docker pull bitnami/spark
+   docker pull spark
    ```
 
    This command downloads the official Bitnami Spark image.
@@ -39,7 +39,7 @@ To run this batch job, you will need:
 1. **Run the Spark container** using:
 
    ```bash
-   docker run -d -p 4040:4040 -p 8080:8080 --name spark bitnami/spark
+   docker run -d -p 4040:4040 -p 8080:8080 --name spark
    ```
 
    This command starts a Spark container and maps the necessary ports (4040 for Spark jobs UI, 8080 for Spark master UI).
@@ -81,11 +81,7 @@ To run the job:
 
 1. **Prepare Data Files**: Ensure that the bookings and airports data files are in the specified locations in your `config.json`.
 2. **Configure `config.json`**: Check that `config.json` points to the correct file paths and includes the desired date range for analysis.
-3. **Execute the Script**: Run the script in a Spark environment. This is typically done with the command:
-
-   ```shell
-   spark-submit booking_analysis.py
-   ```
+3. **Execute the Script**: Run the script in a Spark environment.
 
 ## Output
 The script writes the analysis results to CSV files in the directory booking_analysis/YYYY_MM_DD/, where YYYY_MM_DD represents the current date. The results are partitioned across multiple CSV files in this directory.
@@ -99,9 +95,3 @@ The script writes the analysis results to CSV files in the directory `booking_an
 - **Data Format**: The script expects bookings data in a specific JSON structure and airports data in a CSV format. Ensure that your data files match these expected formats.
 - **Resource Considerations**: This job is designed for distributed processing with Spark. Ensure that your Spark cluster has sufficient resources to handle the size of your dataset.
 - **Error Handling**: The script includes basic error handling for file reading and JSON parsing. Modify or extend error handling as needed for your specific use case.
-
-## Support
-
-For any issues or questions regarding this batch job, please refer to the project repository or contact the maintainers.
-
-
