@@ -1,0 +1,6 @@
+{
+    "bookings_location": "data/bookings/booking.json",
+    "airports_location": "data/airports/airports.dat",
+    "start_date": "",
+    "end_date": ""
+}

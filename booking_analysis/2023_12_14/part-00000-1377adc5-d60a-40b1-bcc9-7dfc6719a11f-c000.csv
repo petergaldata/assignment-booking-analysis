@@ -1,0 +1,670 @@
+destination_country,day_of_week,season,number_of_passengers,number_of_adults,number_of_children,average_age
+United States,Mon,Spring,132,129,2,43.37
+United Kingdom,Mon,Spring,111,88,3,43.82
+United Kingdom,Sun,Spring,107,65,22,37.24
+France,Mon,Spring,98,72,0,45.06
+China,Mon,Spring,87,54,4,39.62
+United States,Sun,Spring,82,64,13,37.88
+Italy,Wed,Spring,78,7,0,48.0
+China,Sun,Spring,72,49,1,43.42
+Germany,Mon,Spring,71,44,6,38.5
+United Kingdom,Tue,Spring,71,38,0,49.29
+United Kingdom,Fri,Spring,66,40,1,43.37
+United Kingdom,Thu,Spring,64,42,3,41.36
+United Kingdom,Wed,Spring,55,29,1,41.8
+United Kingdom,Sat,Spring,51,35,0,47.46
+United States,Tue,Spring,48,34,14,35.54
+Italy,Mon,Spring,45,21,5,32.27
+Netherlands Antilles,Sun,Spring,44,2,1,48.67
+Germany,Thu,Spring,42,13,1,32.86
+Germany,Tue,Spring,40,21,3,35.58
+Canada,Mon,Spring,39,33,6,37.74
+Denmark,Mon,Spring,36,9,0,43.78
+Portugal,Wed,Spring,36,11,20,28.06
+Germany,Fri,Spring,34,15,2,39.29
+Indonesia,Mon,Spring,34,5,0,38.0
+Sweden,Mon,Spring,33,19,2,37.57
+Denmark,Sun,Spring,33,14,0,39.21
+France,Wed,Spring,33,11,0,40.55
+Japan,Sun,Spring,32,1,0,28.0
+France,Sat,Summer,32,5,1,29.33
+Norway,Fri,Spring,31,20,0,63.0
+Germany,Sun,Spring,31,16,1,37.35
+France,Tue,Spring,31,17,0,48.24
+Israel,Sun,Spring,30,4,0,38.5
+Norway,Mon,Spring,27,16,0,38.19
+Germany,Wed,Spring,26,12,0,49.58
+United Kingdom,Fri,Summer,26,12,3,36.93
+Italy,Sun,Spring,25,11,0,44.18
+France,Sun,Spring,25,13,1,41.29
+United Arab Emirates,Sun,Spring,25,24,1,39.29
+Spain,Thu,Spring,24,7,1,37.75
+France,Sat,Spring,23,5,0,56.0
+Sweden,Sun,Spring,23,3,1,31.5
+Italy,Thu,Spring,23,3,0,49.67
+Italy,Tue,Spring,23,6,3,39.89
+Spain,Tue,Spring,23,7,2,38.33
+United States,Fri,Spring,22,18,2,39.25
+Spain,Fri,Spring,22,6,3,32.44
+France,Thu,Spring,21,10,1,45.91
+United States,Wed,Spring,21,20,1,43.86
+Sweden,Wed,Spring,21,1,0,62.0
+United Kingdom,Tue,Summer,21,5,1,57.17
+Canada,Fri,Spring,20,19,1,64.14
+Spain,Mon,Spring,20,13,0,44.15
+Malaysia,Mon,Spring,20,16,0,55.56
+China,Sat,Spring,20,15,0,35.53
+Chile,Sun,Spring,20,16,0,59.44
+Denmark,Fri,Spring,19,13,3,40.63
+South Africa,Mon,Spring,19,17,1,57.94
+United Kingdom,Mon,Summer,19,5,2,34.14
+United Kingdom,Wed,Summer,19,3,3,26.5
+China,Fri,Spring,18,16,0,42.25
+Canada,Thu,Spring,18,14,3,38.53
+France,Fri,Spring,17,13,0,42.54
+Brazil,Mon,Spring,17,13,3,36.06
+United States,Sat,Spring,17,16,1,43.47
+China,Wed,Spring,17,12,0,41.92
+France,Mon,Summer,17,3,1,35.0
+Ireland,Mon,Spring,16,6,0,41.5
+Germany,Sat,Spring,16,8,0,46.25
+South Korea,Sun,Spring,16,16,0,43.94
+Hungary,Fri,Spring,15,10,0,67.5
+Switzerland,Fri,Spring,15,8,0,43.75
+Austria,Mon,Spring,15,6,5,27.91
+Thailand,Sun,Spring,15,14,1,37.53
+Sweden,Fri,Spring,14,0,0,
+Poland,Mon,Spring,14,11,0,36.36
+Italy,Sat,Spring,14,2,0,29.5
+Spain,Sat,Spring,14,8,3,31.18
+Norway,Thu,Spring,14,4,0,50.75
+United Kingdom,Thu,Summer,14,1,0,47.0
+Switzerland,Mon,Spring,13,7,0,50.86
+Norway,Sun,Spring,13,2,2,29.0
+United States,Thu,Spring,13,13,0,49.85
+Denmark,Thu,Spring,13,6,0,57.17
+United States,Tue,Summer,13,10,2,28.5
+Italy,Fri,Spring,12,7,0,46.14
+Canada,Sun,Spring,12,7,5,37.92
+India,Sun,Spring,12,6,0,48.17
+Spain,Sun,Spring,12,6,1,34.86
+Switzerland,Thu,Spring,12,3,0,45.33
+Japan,Tue,Spring,12,3,0,39.67
+Norway,Tue,Spring,12,3,0,33.33
+Germany,Sun,Summer,12,2,0,48.0
+Japan,Mon,Spring,11,5,0,37.8
+Switzerland,Sun,Spring,11,3,0,34.33
+Poland,Sun,Spring,11,3,0,33.33
+Sweden,Thu,Spring,11,1,0,46.0
+Switzerland,Tue,Spring,11,9,0,45.89
+Denmark,Wed,Spring,11,4,1,39.4
+Spain,Wed,Spring,11,9,0,35.56
+Norway,Wed,Spring,11,4,0,39.0
+Germany,Fri,Summer,11,5,0,34.8
+United Kingdom,Sat,Summer,11,3,0,38.0
+Philippines,Thu,Summer,11,0,0,
+France,Tue,Summer,11,1,0,61.0
+United States,Fri,Autumn,10,10,0,43.4
+Indonesia,Mon,Autumn,10,10,0,33.2
+Romania,Mon,Spring,10,6,0,55.67
+Russia,Mon,Spring,10,9,1,39.5
+India,Mon,Spring,10,8,0,47.0
+Peru,Sat,Spring,10,8,2,44.8
+Norway,Sat,Spring,10,3,0,36.67
+Sweden,Sat,Spring,10,4,0,34.0
+China,Tue,Spring,10,10,0,38.7
+Germany,Mon,Summer,10,7,0,43.86
+United States,Sun,Summer,10,6,2,46.38
+United Kingdom,Sun,Summer,10,2,0,36.0
+Switzerland,Sun,Summer,10,0,0,
+Italy,Tue,Summer,10,0,0,
+France,Thu,Autumn,9,2,1,36.0
+Poland,Fri,Spring,9,6,2,39.25
+Finland,Mon,Spring,9,7,0,51.86
+United Arab Emirates,Mon,Spring,9,5,3,30.5
+Portugal,Mon,Spring,9,6,0,48.33
+Hungary,Mon,Spring,9,6,1,45.14
+Mauritius,Sat,Spring,9,9,0,37.0
+Denmark,Sat,Spring,9,0,0,
+China,Thu,Spring,9,8,0,44.38
+Netherlands Antilles,Thu,Spring,9,3,0,49.67
+South Africa,Thu,Spring,9,7,0,40.86
+Sweden,Tue,Spring,9,3,0,41.67
+Finland,Fri,Summer,9,0,0,
+Germany,Thu,Summer,9,7,2,41.11
+Germany,Tue,Summer,9,5,2,20.71
+United States,Wed,Summer,9,7,2,33.33
+Sweden,Wed,Autumn,8,0,0,
+Mexico,Fri,Spring,8,8,0,46.38
+Russia,Fri,Spring,8,6,0,36.83
+Chile,Mon,Spring,8,8,0,40.25
+Panama,Mon,Spring,8,8,0,42.88
+Hungary,Sat,Spring,8,8,0,69.38
+Taiwan,Tue,Spring,8,3,0,31.33
+Belgium,Tue,Spring,8,6,0,52.17
+Sweden,Fri,Summer,8,0,0,
+Norway,Mon,Summer,8,0,0,
+Norway,Sat,Summer,8,2,0,48.0
+United Arab Emirates,Sun,Summer,8,0,0,
+Italy,Sun,Summer,8,2,0,22.5
+United States,Thu,Summer,8,6,0,66.33
+Sweden,Mon,Winter,8,0,0,
+Kenya,Mon,Winter,8,6,2,37.38
+United Kingdom,Sun,Autumn,7,0,0,
+Tanzania,Fri,Spring,7,6,1,41.43
+South Africa,Fri,Spring,7,4,2,33.17
+United Arab Emirates,Fri,Spring,7,6,0,41.5
+Thailand,Mon,Spring,7,4,0,41.0
+Ecuador,Mon,Spring,7,7,0,41.57
+Portugal,Sat,Spring,7,6,0,39.83
+India,Sat,Spring,7,6,0,49.0
+Mexico,Sun,Spring,7,7,0,43.71
+Greece,Thu,Spring,7,0,0,
+Austria,Tue,Spring,7,6,0,31.0
+Poland,Tue,Spring,7,4,0,46.75
+Portugal,Tue,Spring,7,3,0,43.67
+United States,Fri,Summer,7,7,0,67.14
+United States,Sat,Summer,7,7,0,63.57
+Philippines,Sun,Summer,7,0,0,
+Spain,Tue,Summer,7,2,0,27.0
+Malaysia,Tue,Summer,7,2,5,15.29
+Norway,Wed,Summer,7,0,0,
+Germany,Wed,Summer,7,3,0,34.33
+South Africa,Wed,Summer,7,3,0,33.33
+United Kingdom,Fri,Winter,7,2,0,64.0
+India,Sun,Winter,7,6,1,46.86
+France,Tue,Winter,7,2,5,15.29
+Peru,Tue,Winter,7,4,1,37.2
+Netherlands Antilles,Fri,Autumn,6,0,0,
+Malaysia,Fri,Spring,6,3,0,42.0
+Finland,Fri,Spring,6,2,0,72.5
+Nigeria,Fri,Spring,6,2,0,40.0
+Singapore,Mon,Spring,6,5,0,45.2
+Switzerland,Sat,Spring,6,3,0,30.0
+Poland,Sat,Spring,6,2,0,40.5
+Singapore,Sun,Spring,6,4,0,40.25
+Hungary,Sun,Spring,6,2,0,45.0
+Indonesia,Sun,Spring,6,5,0,45.8
+India,Thu,Spring,6,5,0,35.4
+Brazil,Thu,Spring,6,6,0,34.83
+Russia,Thu,Spring,6,6,0,46.67
+Hungary,Thu,Spring,6,3,0,32.0
+Canada,Wed,Spring,6,6,0,52.5
+Israel,Wed,Spring,6,2,0,21.0
+Hungary,Fri,Summer,6,4,0,28.5
+South Africa,Sat,Summer,6,1,1,31.5
+Austria,Sat,Summer,6,0,0,
+Spain,Sat,Summer,6,2,0,30.5
+Italy,Sat,Summer,6,1,0,21.0
+Portugal,Sat,Summer,6,0,0,
+Denmark,Wed,Summer,6,2,2,30.5
+Sweden,Fri,Winter,6,2,3,21.2
+United Kingdom,Sat,Winter,6,0,0,
+Sweden,Tue,Winter,6,0,0,
+Brazil,Mon,Autumn,5,0,0,
+Poland,Sat,Autumn,5,0,0,
+Germany,Sun,Autumn,5,2,0,37.5
+France,Wed,Autumn,5,0,0,
+Philippines,Fri,Spring,5,5,0,44.4
+Hong Kong,Fri,Spring,5,2,1,22.67
+Greece,Mon,Spring,5,4,0,56.5
+Taiwan,Mon,Spring,5,4,0,48.5
+Peru,Mon,Spring,5,4,0,46.75
+Nigeria,Mon,Spring,5,5,0,41.4
+Uganda,Mon,Spring,5,3,0,52.0
+Belgium,Sat,Spring,5,4,0,54.25
+Netherlands Antilles,Sat,Spring,5,0,0,
+Brazil,Sat,Spring,5,4,0,39.5
+Canada,Sat,Spring,5,5,0,30.4
+Russia,Sun,Spring,5,4,0,40.25
+Belgium,Sun,Spring,5,2,0,41.5
+Kuwait,Sun,Spring,5,3,2,30.0
+Malaysia,Sun,Spring,5,5,0,45.2
+Portugal,Thu,Spring,5,2,0,42.5
+Finland,Thu,Spring,5,1,0,19.0
+Luxembourg,Tue,Spring,5,0,0,
+Canada,Tue,Spring,5,5,0,59.0
+Nigeria,Tue,Spring,5,3,0,44.33
+Hungary,Tue,Spring,5,5,0,41.8
+Kuwait,Tue,Spring,5,1,2,17.0
+Switzerland,Wed,Spring,5,1,0,31.0
+Brazil,Wed,Spring,5,4,0,50.0
+Argentina,Wed,Spring,5,0,0,
+Japan,Fri,Summer,5,2,0,47.5
+China,Fri,Summer,5,0,0,
+Norway,Fri,Summer,5,0,0,
+Belgium,Mon,Summer,5,1,0,21.0
+Kuwait,Sun,Summer,5,0,0,
+France,Sun,Summer,5,1,0,46.0
+Switzerland,Thu,Summer,5,1,0,33.0
+France,Thu,Summer,5,0,0,
+Denmark,Tue,Summer,5,2,0,74.5
+Kenya,Tue,Summer,5,0,0,
+Canada,Tue,Summer,5,5,0,48.4
+France,Wed,Summer,5,1,2,17.67
+Canada,Wed,Summer,5,5,0,56.6
+Sweden,Sat,Winter,5,0,0,
+Thailand,Sat,Winter,5,2,3,23.4
+Malaysia,Sun,Winter,5,0,0,
+France,Sat,Autumn,4,2,0,56.5
+Switzerland,Sun,Autumn,4,0,0,
+Switzerland,Thu,Autumn,4,2,2,21.25
+Kuwait,Thu,Autumn,4,0,0,
+United Kingdom,Tue,Autumn,4,1,0,30.0
+Netherlands Antilles,Fri,Spring,4,1,0,56.0
+Belgium,Fri,Spring,4,1,0,40.0
+Namibia,Mon,Spring,4,2,0,62.5
+Rwanda,Mon,Spring,4,4,0,47.25
+Luxembourg,Mon,Spring,4,1,0,27.0
+Kenya,Mon,Spring,4,2,0,36.0
+Finland,Sat,Spring,4,2,0,37.0
+Rwanda,Sat,Spring,4,2,0,44.5
+Philippines,Sat,Spring,4,1,0,67.0
+Czech Republic,Sat,Spring,4,4,0,40.75
+Argentina,Sun,Spring,4,3,1,40.0
+Ecuador,Sun,Spring,4,4,0,45.25
+Romania,Sun,Spring,4,1,0,72.0
+South Africa,Sun,Spring,4,2,0,29.0
+Portugal,Sun,Spring,4,1,0,48.0
+Austria,Thu,Spring,4,1,0,37.0
+Japan,Thu,Spring,4,1,0,63.0
+South Korea,Thu,Spring,4,1,0,49.0
+Bahrain,Tue,Spring,4,1,0,21.0
+Denmark,Tue,Spring,4,3,0,50.25
+Finland,Tue,Spring,4,0,0,
+Brazil,Tue,Spring,4,0,0,
+Czech Republic,Wed,Spring,4,0,0,
+Belgium,Wed,Spring,4,1,0,37.0
+Russia,Wed,Spring,4,4,0,41.75
+Mexico,Wed,Spring,4,4,0,31.0
+Japan,Wed,Spring,4,2,1,38.67
+Switzerland,Fri,Summer,4,0,0,
+United Arab Emirates,Fri,Summer,4,0,0,
+Hungary,Mon,Summer,4,0,0,
+Brazil,Sat,Summer,4,3,1,35.5
+China,Sat,Summer,4,4,0,43.25
+Kuwait,Sat,Summer,4,0,0,
+Austria,Sun,Summer,4,0,0,
+Czech Republic,Sun,Summer,4,0,0,
+Portugal,Sun,Summer,4,2,2,17.0
+Poland,Thu,Summer,4,2,0,25.0
+Czech Republic,Thu,Summer,4,3,1,37.25
+Greece,Tue,Summer,4,0,0,
+Hungary,Tue,Summer,4,2,2,27.25
+Russia,Wed,Summer,4,0,0,
+Sweden,Wed,Summer,4,3,1,37.0
+South Korea,Wed,Summer,4,0,0,
+Greece,Wed,Summer,4,4,0,34.75
+Spain,Wed,Summer,4,0,0,
+Brazil,Fri,Winter,4,2,2,23.25
+Switzerland,Fri,Winter,4,0,0,
+Finland,Sat,Winter,4,4,0,57.0
+Costa Rica,Sun,Winter,4,0,0,
+Thailand,Tue,Winter,4,4,0,60.5
+Tanzania,Tue,Winter,4,2,0,66.0
+India,Wed,Winter,4,4,0,57.75
+United Arab Emirates,Wed,Winter,4,2,2,18.25
+South Korea,Fri,Autumn,3,0,0,
+Italy,Fri,Autumn,3,1,0,23.0
+Germany,Fri,Autumn,3,1,0,22.0
+South Africa,Fri,Autumn,3,0,0,
+China,Mon,Autumn,3,1,0,40.0
+France,Mon,Autumn,3,1,0,24.0
+Italy,Mon,Autumn,3,0,0,
+Japan,Sat,Autumn,3,0,0,
+Portugal,Sat,Autumn,3,0,0,
+Germany,Sat,Autumn,3,0,0,
+South Africa,Sun,Autumn,3,0,0,
+Netherlands Antilles,Sun,Autumn,3,0,0,
+United Arab Emirates,Thu,Autumn,3,1,0,52.0
+Tanzania,Tue,Autumn,3,0,0,
+Indonesia,Wed,Autumn,3,0,0,
+Ghana,Fri,Spring,3,1,0,27.0
+Austria,Fri,Spring,3,0,0,
+Ireland,Fri,Spring,3,0,0,
+Taiwan,Fri,Spring,3,2,0,31.5
+Singapore,Fri,Spring,3,3,0,39.33
+Belgium,Mon,Spring,3,3,0,43.0
+Argentina,Mon,Spring,3,3,0,34.0
+South Korea,Mon,Spring,3,3,0,37.67
+Czech Republic,Mon,Spring,3,2,1,26.0
+Malaysia,Sat,Spring,3,2,0,42.0
+Hong Kong,Sat,Spring,3,2,0,47.5
+Ireland,Sat,Spring,3,0,0,
+Nigeria,Sat,Spring,3,2,0,68.0
+Russia,Sat,Spring,3,3,0,30.67
+Austria,Sun,Spring,3,2,0,50.5
+Philippines,Sun,Spring,3,0,0,
+Finland,Sun,Spring,3,0,0,
+Luxembourg,Thu,Spring,3,0,0,
+Ghana,Thu,Spring,3,2,0,40.5
+Singapore,Thu,Spring,3,0,0,
+Malaysia,Thu,Spring,3,3,0,35.67
+United Arab Emirates,Thu,Spring,3,3,0,44.67
+Czech Republic,Tue,Spring,3,0,0,
+Ecuador,Tue,Spring,3,0,1,8.0
+South Africa,Tue,Spring,3,3,0,74.0
+Netherlands Antilles,Wed,Spring,3,1,0,70.0
+Aruba,Wed,Spring,3,3,0,34.33
+Nigeria,Wed,Spring,3,2,0,45.5
+Taiwan,Wed,Spring,3,2,0,43.5
+Croatia,Wed,Spring,3,2,1,45.67
+United Arab Emirates,Wed,Spring,3,0,0,
+South Korea,Wed,Spring,3,1,0,54.0
+Austria,Wed,Spring,3,0,0,
+Kuwait,Wed,Spring,3,0,0,
+Argentina,Fri,Summer,3,0,0,
+Brazil,Fri,Summer,3,3,0,44.33
+South Africa,Fri,Summer,3,0,0,
+Singapore,Fri,Summer,3,0,0,
+Italy,Fri,Summer,3,0,0,
+Aruba,Fri,Summer,3,0,0,
+Spain,Mon,Summer,3,0,0,
+Canada,Mon,Summer,3,2,0,29.5
+Peru,Sat,Summer,3,2,0,23.0
+South Korea,Sat,Summer,3,0,0,
+Philippines,Sat,Summer,3,0,0,
+Czech Republic,Sat,Summer,3,0,0,
+Poland,Sun,Summer,3,0,0,
+Denmark,Sun,Summer,3,2,0,67.0
+Romania,Sun,Summer,3,0,0,
+Spain,Thu,Summer,3,3,0,51.33
+Canada,Thu,Summer,3,2,0,35.0
+Sweden,Tue,Summer,3,0,0,
+Switzerland,Tue,Summer,3,0,0,
+Kuwait,Wed,Summer,3,0,0,
+Thailand,Wed,Summer,3,2,0,36.5
+Philippines,Wed,Summer,3,0,0,
+Netherlands Antilles,Wed,Summer,3,0,0,
+South Africa,Mon,Winter,3,0,1,-16.0
+South Korea,Sat,Winter,3,0,0,
+Thailand,Sun,Winter,3,1,2,22.33
+Switzerland,Sun,Winter,3,2,1,39.33
+Spain,Thu,Winter,3,0,0,
+Hong Kong,Thu,Winter,3,1,0,39.0
+Canada,Thu,Winter,3,2,1,22.33
+Ghana,Wed,Winter,3,2,1,23.0
+Japan,Fri,Autumn,2,0,0,
+Spain,Fri,Autumn,2,0,0,
+Switzerland,Fri,Autumn,2,0,0,
+United Kingdom,Fri,Autumn,2,0,0,
+Austria,Mon,Autumn,2,0,0,
+Japan,Mon,Autumn,2,2,0,54.0
+United Kingdom,Sat,Autumn,2,0,0,
+United States,Sat,Autumn,2,2,0,56.5
+Israel,Sat,Autumn,2,2,0,22.5
+Tanzania,Sun,Autumn,2,0,0,
+Norway,Sun,Autumn,2,0,0,
+Greece,Sun,Autumn,2,0,0,
+Poland,Sun,Autumn,2,0,0,
+Hungary,Thu,Autumn,2,0,0,
+Denmark,Thu,Autumn,2,0,0,
+Sweden,Thu,Autumn,2,2,0,66.5
+Brazil,Thu,Autumn,2,0,0,
+Japan,Thu,Autumn,2,0,0,
+Argentina,Thu,Autumn,2,0,0,
+Poland,Thu,Autumn,2,0,0,
+Mexico,Tue,Autumn,2,2,0,25.5
+Canada,Tue,Autumn,2,2,0,50.0
+Malaysia,Tue,Autumn,2,2,0,50.0
+United States,Tue,Autumn,2,2,0,28.0
+Italy,Wed,Autumn,2,0,0,
+Hungary,Wed,Autumn,2,2,0,59.5
+Russia,Wed,Autumn,2,0,0,
+Brazil,Wed,Autumn,2,2,0,39.5
+United States,Wed,Autumn,2,2,0,66.5
+Japan,Fri,Spring,2,0,0,
+Peru,Fri,Spring,2,2,0,52.0
+Romania,Fri,Spring,2,2,0,68.5
+Namibia,Fri,Spring,2,2,0,28.5
+Ukraine,Fri,Spring,2,2,0,51.5
+India,Fri,Spring,2,1,0,19.0
+Brazil,Fri,Spring,2,2,0,26.0
+Israel,Fri,Spring,2,2,0,21.0
+Portugal,Fri,Spring,2,2,0,28.5
+Greece,Fri,Spring,2,0,0,
+Saudi Arabia,Mon,Spring,2,2,0,47.0
+Tanzania,Mon,Spring,2,2,0,52.0
+Ukraine,Mon,Spring,2,1,0,22.0
+Israel,Mon,Spring,2,2,0,26.5
+Philippines,Mon,Spring,2,2,0,66.5
+Oman,Mon,Spring,2,1,0,36.0
+Turkey,Mon,Spring,2,2,0,58.0
+Cuba,Sat,Spring,2,2,0,37.0
+Bahrain,Sat,Spring,2,0,0,
+United Arab Emirates,Sat,Spring,2,1,0,43.0
+Romania,Sat,Spring,2,0,0,
+Suriname,Sat,Spring,2,0,0,
+Ecuador,Sat,Spring,2,1,0,25.0
+Ghana,Sun,Spring,2,2,0,35.5
+Kenya,Sun,Spring,2,0,0,
+Panama,Sun,Spring,2,2,0,29.0
+Colombia,Sun,Spring,2,2,0,39.5
+Cuba,Sun,Spring,2,2,0,29.5
+Greece,Sun,Spring,2,1,0,42.0
+Ireland,Thu,Spring,2,0,0,
+Israel,Thu,Spring,2,2,0,26.0
+Taiwan,Thu,Spring,2,2,0,29.0
+Peru,Thu,Spring,2,0,0,
+Hong Kong,Thu,Spring,2,2,0,34.0
+Colombia,Thu,Spring,2,1,0,26.0
+Poland,Thu,Spring,2,1,0,49.0
+Israel,Tue,Spring,2,2,0,47.0
+Hong Kong,Tue,Spring,2,1,0,29.0
+Cuba,Tue,Spring,2,2,0,60.0
+Russia,Tue,Spring,2,0,0,
+Turkey,Tue,Spring,2,2,0,28.5
+Peru,Tue,Spring,2,2,0,19.5
+Oman,Tue,Spring,2,2,0,39.5
+Uganda,Tue,Spring,2,0,0,
+Colombia,Tue,Spring,2,2,0,40.5
+Panama,Tue,Spring,2,2,0,35.0
+Croatia,Tue,Spring,2,2,0,46.5
+Philippines,Wed,Spring,2,2,0,62.0
+Peru,Wed,Spring,2,1,0,33.0
+Romania,Wed,Spring,2,1,0,40.0
+South Africa,Wed,Spring,2,1,0,31.0
+Hungary,Wed,Spring,2,1,0,28.0
+Uganda,Wed,Spring,2,2,0,70.5
+Tanzania,Wed,Spring,2,2,0,42.0
+Spain,Fri,Summer,2,0,0,
+Denmark,Fri,Summer,2,0,0,
+Austria,Fri,Summer,2,2,0,67.0
+Belgium,Fri,Summer,2,0,0,
+Czech Republic,Fri,Summer,2,0,0,
+Portugal,Mon,Summer,2,2,0,31.0
+United States,Mon,Summer,2,1,1,26.5
+Thailand,Mon,Summer,2,0,0,
+Italy,Mon,Summer,2,0,0,
+Aruba,Mon,Summer,2,0,0,
+Poland,Sat,Summer,2,1,1,30.0
+Israel,Sat,Summer,2,0,0,
+Thailand,Sat,Summer,2,2,0,52.0
+Ukraine,Sat,Summer,2,0,0,
+Sweden,Sat,Summer,2,0,0,
+Saudi Arabia,Sat,Summer,2,1,0,45.0
+South Korea,Sun,Summer,2,0,0,
+Brazil,Sun,Summer,2,2,0,65.5
+Ireland,Sun,Summer,2,0,0,
+Canada,Sun,Summer,2,2,0,62.0
+Sweden,Sun,Summer,2,0,0,
+Russia,Sun,Summer,2,0,0,
+Nigeria,Sun,Summer,2,0,0,
+Finland,Thu,Summer,2,2,0,31.5
+Kenya,Thu,Summer,2,0,0,
+Russia,Thu,Summer,2,2,0,72.0
+Cuba,Thu,Summer,2,2,0,28.5
+Turkey,Thu,Summer,2,0,0,
+Colombia,Thu,Summer,2,2,0,29.5
+Aruba,Thu,Summer,2,0,0,
+Taiwan,Thu,Summer,2,0,0,
+Hungary,Thu,Summer,2,0,0,
+Norway,Tue,Summer,2,0,0,
+Philippines,Tue,Summer,2,0,0,
+Peru,Wed,Summer,2,1,0,59.0
+Italy,Wed,Summer,2,0,0,
+Japan,Wed,Summer,2,0,0,
+Kenya,Wed,Summer,2,2,0,57.5
+Aruba,Wed,Summer,2,2,0,52.0
+India,Fri,Winter,2,2,0,59.5
+United States,Fri,Winter,2,0,0,
+Panama,Fri,Winter,2,2,0,39.0
+Tanzania,Mon,Winter,2,0,0,
+Chile,Mon,Winter,2,2,0,61.5
+United States,Mon,Winter,2,2,0,51.0
+Brazil,Mon,Winter,2,2,0,60.0
+Mauritius,Sat,Winter,2,2,0,64.0
+South Africa,Sat,Winter,2,2,0,61.0
+Belgium,Sun,Winter,2,2,0,61.0
+Singapore,Thu,Winter,2,2,0,69.5
+United Kingdom,Thu,Winter,2,0,0,
+France,Thu,Winter,2,1,0,27.0
+Panama,Thu,Winter,2,2,0,34.5
+India,Tue,Winter,2,2,0,31.0
+Portugal,Tue,Winter,2,0,0,
+Netherlands Antilles,Wed,Winter,2,0,0,
+Germany,Wed,Winter,2,0,0,
+Tanzania,Fri,Autumn,1,1,0,58.0
+Ghana,Fri,Autumn,1,1,0,62.0
+Greece,Fri,Autumn,1,0,0,
+Austria,Fri,Autumn,1,0,0,
+Switzerland,Mon,Autumn,1,1,0,42.0
+Spain,Sat,Autumn,1,0,0,
+Germany,Thu,Autumn,1,0,0,
+Suriname,Thu,Autumn,1,0,0,
+Sweden,Tue,Autumn,1,1,0,46.0
+India,Tue,Autumn,1,1,0,26.0
+United Kingdom,Wed,Autumn,1,1,0,61.0
+Belgium,Wed,Autumn,1,1,0,24.0
+Canada,Wed,Autumn,1,1,0,46.0
+Croatia,Fri,Spring,1,1,0,39.0
+Czech Republic,Fri,Spring,1,1,0,38.0
+Argentina,Fri,Spring,1,0,0,
+Angola,Fri,Spring,1,0,0,
+Thailand,Fri,Spring,1,1,0,45.0
+Kuwait,Mon,Spring,1,0,0,
+Netherlands Antilles,Mon,Spring,1,0,0,
+Mexico,Mon,Spring,1,0,0,
+South Africa,Sat,Spring,1,1,0,46.0
+Mexico,Sat,Spring,1,1,0,46.0
+Israel,Sat,Spring,1,0,0,
+Austria,Sat,Spring,1,0,0,
+South Korea,Sat,Spring,1,0,0,
+Aruba,Sat,Spring,1,1,0,47.0
+Kuwait,Sat,Spring,1,1,0,55.0
+Thailand,Sat,Spring,1,0,0,
+Singapore,Sat,Spring,1,0,0,
+Chile,Sat,Spring,1,1,0,27.0
+Croatia,Sat,Spring,1,1,0,75.0
+Taiwan,Sat,Spring,1,1,0,44.0
+Hong Kong,Sun,Spring,1,0,0,
+Taiwan,Sun,Spring,1,0,0,
+Saudi Arabia,Sun,Spring,1,0,0,
+Ireland,Sun,Spring,1,1,0,43.0
+Peru,Sun,Spring,1,1,0,37.0
+Costa Rica,Sun,Spring,1,1,0,36.0
+Luxembourg,Sun,Spring,1,0,0,
+Brazil,Sun,Spring,1,1,0,38.0
+Saudi Arabia,Thu,Spring,1,0,0,
+Croatia,Thu,Spring,1,0,0,
+Chile,Thu,Spring,1,1,0,24.0
+Romania,Thu,Spring,1,0,0,
+Tanzania,Thu,Spring,1,1,0,22.0
+Uganda,Thu,Spring,1,0,0,
+Ukraine,Thu,Spring,1,1,0,66.0
+India,Tue,Spring,1,1,0,24.0
+Greece,Tue,Spring,1,0,0,
+Kenya,Tue,Spring,1,0,0,
+Malaysia,Tue,Spring,1,1,0,51.0
+Singapore,Tue,Spring,1,0,0,
+Ireland,Tue,Spring,1,1,0,36.0
+Ghana,Tue,Spring,1,1,0,49.0
+South Korea,Tue,Spring,1,1,0,41.0
+Saudi Arabia,Tue,Spring,1,1,0,39.0
+Rwanda,Tue,Spring,1,1,0,48.0
+United Arab Emirates,Tue,Spring,1,0,0,
+Ecuador,Wed,Spring,1,0,0,
+Oman,Wed,Spring,1,1,0,32.0
+Indonesia,Wed,Spring,1,1,0,40.0
+Panama,Wed,Spring,1,1,0,36.0
+Kenya,Wed,Spring,1,0,0,
+Cuba,Wed,Spring,1,1,0,48.0
+Ghana,Wed,Spring,1,0,0,
+Poland,Wed,Spring,1,1,0,40.0
+Luxembourg,Wed,Spring,1,1,0,52.0
+Peru,Fri,Summer,1,0,0,
+Poland,Fri,Summer,1,0,0,
+Taiwan,Fri,Summer,1,0,0,
+France,Fri,Summer,1,1,0,32.0
+Kuwait,Fri,Summer,1,1,0,43.0
+Switzerland,Mon,Summer,1,0,0,
+Cuba,Mon,Summer,1,1,0,23.0
+Israel,Mon,Summer,1,1,0,21.0
+Chile,Mon,Summer,1,1,0,29.0
+Denmark,Mon,Summer,1,1,0,50.0
+China,Mon,Summer,1,0,0,
+Panama,Mon,Summer,1,0,0,
+United Arab Emirates,Sat,Summer,1,0,0,
+Hong Kong,Sat,Summer,1,0,0,
+Suriname,Sat,Summer,1,1,0,39.0
+Germany,Sat,Summer,1,0,0,
+Japan,Sat,Summer,1,0,0,
+Singapore,Sat,Summer,1,0,0,
+Taiwan,Sat,Summer,1,0,0,
+Israel,Sun,Summer,1,0,0,
+Netherlands Antilles,Sun,Summer,1,0,0,
+China,Sun,Summer,1,0,0,
+Spain,Sun,Summer,1,0,0,
+Thailand,Thu,Summer,1,0,0,
+Portugal,Thu,Summer,1,0,0,
+Saudi Arabia,Thu,Summer,1,1,0,39.0
+South Africa,Thu,Summer,1,0,0,
+United Arab Emirates,Thu,Summer,1,0,0,
+Ghana,Thu,Summer,1,0,0,
+Norway,Thu,Summer,1,0,0,
+Russia,Tue,Summer,1,0,0,
+China,Tue,Summer,1,0,0,
+Kuwait,Tue,Summer,1,0,0,
+Taiwan,Tue,Summer,1,0,0,
+South Korea,Tue,Summer,1,1,0,24.0
+South Africa,Tue,Summer,1,1,0,47.0
+Nigeria,Tue,Summer,1,0,0,
+China,Wed,Summer,1,1,0,20.0
+Mexico,Wed,Summer,1,1,0,33.0
+Bahrain,Wed,Summer,1,1,0,57.0
+Turkey,Wed,Summer,1,1,0,63.0
+Germany,Fri,Winter,1,0,0,
+South Africa,Fri,Winter,1,1,0,36.0
+Hong Kong,Fri,Winter,1,1,0,37.0
+Kenya,Fri,Winter,1,1,0,29.0
+Thailand,Mon,Winter,1,0,0,
+United Kingdom,Mon,Winter,1,0,0,
+Argentina,Sat,Winter,1,1,0,45.0
+Italy,Sat,Winter,1,0,0,
+France,Sat,Winter,1,1,0,43.0
+Spain,Sat,Winter,1,0,0,
+Bahrain,Sat,Winter,1,0,0,
+Cuba,Sun,Winter,1,1,0,23.0
+China,Sun,Winter,1,1,0,32.0
+Netherlands Antilles,Sun,Winter,1,1,0,29.0
+United States,Sun,Winter,1,1,0,45.0
+United Kingdom,Sun,Winter,1,1,0,37.0
+Norway,Sun,Winter,1,1,0,24.0
+Philippines,Sun,Winter,1,1,0,32.0
+Germany,Sun,Winter,1,0,0,
+South Africa,Thu,Winter,1,1,0,36.0
+Colombia,Thu,Winter,1,1,0,29.0
+Brazil,Thu,Winter,1,0,0,
+India,Thu,Winter,1,1,0,67.0
+Denmark,Thu,Winter,1,1,0,56.0
+China,Thu,Winter,1,1,0,26.0
+United States,Thu,Winter,1,0,0,
+Malaysia,Thu,Winter,1,1,0,27.0
+Germany,Thu,Winter,1,1,0,31.0
+Italy,Tue,Winter,1,0,0,
+Israel,Tue,Winter,1,0,0,
+Belgium,Tue,Winter,1,1,0,54.0
+Poland,Wed,Winter,1,1,0,31.0
+Tanzania,Wed,Winter,1,1,0,35.0
+Brazil,Wed,Winter,1,1,0,37.0
+United States,Wed,Winter,1,1,0,43.0

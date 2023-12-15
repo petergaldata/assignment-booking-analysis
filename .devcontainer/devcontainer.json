@@ -1,0 +1,6 @@
+{
+	"name": "Spark",
+	"remoteUser": "spark",
+	"image": "spark:latest",
+	"mounts": ["type=bind,source=/Users/petergal/Documents/GitHub,target=/home/,consistency=cached"],
+}
