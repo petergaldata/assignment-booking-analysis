@@ -5,11 +5,18 @@
   "version": "0.2.0",
   "configurations": [
       {
-          "name": "Python: test.py",
+          "name": "Python: booking_analysis.py",
           "type": "python",
           "request": "launch",
           "program": "${workspaceFolder}/booking_analysis.py",
           "console": "integratedTerminal"
-      }
+      },
+      {
+        "name": "Python: test.py",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/test/test.py",
+        "console": "integratedTerminal"
+    }
   ]
 }

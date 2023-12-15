@@ -13,6 +13,7 @@ WITH confirmed_date_localized_bookings as(
 )
 SELECT 
     ap_dest.country AS destination_country,
+    
     DATE_FORMAT(to_timestamp(cb.departure_date_local), 'E') AS day_of_week, 
     CASE 
         WHEN MONTH(to_timestamp(cb.departure_date_local)) IN (12, 1, 2) THEN 'Winter'
